@@ -6,7 +6,7 @@
 
 ## 前言
 
-本教程旨在帮助学员能够快速完整的搭建一套基于 Dubbo 通信的分布式系统开发环境并默认学员已经掌握下列相关技能或知识点：
+本教程旨在帮助学员能够快速完整的搭建一套基于 Dubbo 通信的分布式系统开发环境（仅演示开发环境的搭建过程并不包含相关业务代码）并默认学员已经掌握下列所需知识点：
 
 1. 了解什么是分布式系统
 2. 了解什么是微服务架构
@@ -36,3 +36,12 @@
 * 文件系统：FastDFS
 * 消息队列：RabbitMQ
 
+## 文档及代码
+
+* 在线文档：https://topsale.gitbooks.io/java-cloud-dubbo-fast/content/
+* 本书代码：https://github.com/topsale/code-java-cloud-dubbo-fast.git
+* 本书文档：https://github.com/topsale/book-java-cloud-dubbo-fast.git
+
+## 扫码关注公众号获取最新教程
+
+<div style="text-align:center;"><img src="/assets/qrcode_for_gh_deaaa17a32cc_430.jpg" /></div>

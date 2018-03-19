@@ -1,0 +1,9 @@
+{
+  "title": "分布式系统开发环境搭建极速教程",
+  "author": "李卫民",
+  "language": "zh-hans",
+  "plugins": [
+    "expandable-chapters-small",
+    "popup"
+  ]
+}
