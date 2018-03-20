@@ -2,6 +2,9 @@
 
 ---
 
+<span style="float:right; font-size:24px;"><strong>讲师：李卫民</strong></span>
+
+* [MySQL](/chapter2/MySQL.md)
 * [Zookeeper](/chapter2/zookeeper.md)
 * [Dubbo Admin](/chapter2/dubbo-admin.md)
 * [FastDFS](/chapter2/FastDFS.md)
