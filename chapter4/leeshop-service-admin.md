@@ -184,7 +184,7 @@ dubbo:
     name: dubbo
   registry:
     id: zookeeper
-    address: zookeeper://192.168.75.130:2181?backup=192.168.75.132:2182,192.168.75.132:2183
+    address: zookeeper://192.168.75.130:2181?backup=192.168.75.130:2182,192.168.75.130:2183
 ```
 
 ## application.properties

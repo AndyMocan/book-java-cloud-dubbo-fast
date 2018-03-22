@@ -17,5 +17,8 @@
     * [领域模型项目](chapter3/领域模型项目.md)
 * [第04章 搭建服务提供者项目](chapter4.md)
     * [leeshop-service-admin](chapter4/leeshop-service-admin.md)
+    * [leeshop-service-redis](chapter4/leeshop-service-redis.md)
+    * [leeshop-service-portal](chapter4/leeshop-service-portal.md)
 * [第05章 搭建服务消费者项目](chapter5.md)
     * [leeshop-web-admin](chapter5/leeshop-web-admin.md)
+    * [leeshop-web-portal](chapter5/leeshop-web-portal.md)

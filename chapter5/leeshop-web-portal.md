@@ -1,4 +1,4 @@
-# leeshop-web-admin
+# leeshop-web-portal
 
 ---
 
@@ -11,11 +11,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lusifer</groupId>
-    <artifactId>leeshop-web-admin</artifactId>
+    <artifactId>leeshop-web-portal</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>leeshop-web-admin</name>
+    <name>leeshop-web-portal</name>
     <description></description>
 
     <parent>
@@ -70,7 +70,7 @@
         <!-- Project Begin -->
         <dependency>
             <groupId>com.lusifer</groupId>
-            <artifactId>leeshop-service-admin-api</artifactId>
+            <artifactId>leeshop-service-portal-api</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
@@ -88,7 +88,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.lusifer.leeshop.web.admin.LeeShopWebAdminApplication</mainClass>
+                    <mainClass>com.lusifer.leeshop.web.portal.LeeShopWebPortalApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
@@ -101,11 +101,11 @@
 
 ```
 server:
-  port: 8100
+  port: 8101
 
 spring:
   application:
-    name: leeshop-web-admin
+    name: leeshop-web-portal
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
@@ -114,28 +114,18 @@ spring:
 
 dubbo:
   scan:
-    base-packages: com.lusifer.leeshop.web.admin.controller
+    base-packages: com.lusifer.leeshop.web.portal.controller
   application:
-    id: leeshop-web-admin
-    name: leeshop-web-admin
+    id: leeshop-web-portal
+    name: leeshop-web-portal
   registry:
     id: zookeeper
     address: zookeeper://192.168.75.130:2181?backup=192.168.75.130:2182,192.168.75.130:2183
 ```
 
-## Application
+## Thymeleaf 声明
 
 ```
-package com.lusifer.leeshop.web.admin;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class LeeShopWebAdminApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(LeeShopWebAdminApplication.class, args);
-    }
-}
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 ```
