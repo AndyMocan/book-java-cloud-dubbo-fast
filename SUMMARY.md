@@ -25,3 +25,4 @@
     * [leeshop-web-portal](chapter5/leeshop-web-portal.md)
     * [leeshop-web-search](chapter5/leeshop-web-search.md)
     * [leeshop-web-api](chapter5/leeshop-web-api.md)
+* [第06章 项目的容器化部署](chapter6.md)
